@@ -1,5 +1,5 @@
 {
-    "name": "jsq/amazon-es-php",
+    "name": "mlg/amazon-es-php",
     "description": "Support for using IAM authentication with the official Elasticsearch PHP client",
     "keywords": ["elasticsearch", "aws", "search", "client", "iam"],
     "minimum-stability": "stable",
@@ -11,8 +11,8 @@
         }
     ],
     "require": {
-        "elasticsearch/elasticsearch": "^2.1",
-        "aws/aws-sdk-php": "^3.0"
+        "elasticsearch/elasticsearch": "^5.0",
+        "aws/aws-sdk-php": "^3.22"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0|~5.0"
